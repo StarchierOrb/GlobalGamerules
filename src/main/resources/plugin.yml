@@ -1,0 +1,21 @@
+name: GlobalGamerules
+version: @version@
+main: me.starchier.globalgamerules.Globalgamerules
+api-version: 1.13
+authors: [starchier]
+description: Sync the gamerules to all worlds
+commands:
+  ggr:
+    usage: /ggr <argument>
+    description: main command
+permissions:
+  globalgamerules.admin:
+    default: op
+    description: access the command of global gamerules
+    children:
+      globalgamerules.set: true
+      globalgamerules.remove: true
+      globalgamerules.check: true
+      globalgamerules.world: true
+      globalgamerules.reload: true
+      globalgamerules.sync: true

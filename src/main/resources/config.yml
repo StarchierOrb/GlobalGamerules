@@ -1,0 +1,4 @@
+gamerules: []
+locale: zh_CN
+exempt-worlds:
+  - disabled-world
